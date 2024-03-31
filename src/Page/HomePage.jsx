@@ -319,7 +319,7 @@ const HomePage = () => {
         <div
           className={`bg-white opacity-0 ${
             navBgOn && !navOpen && "opacity-100"
-          } fixed z-10 h-[100px] w-full transition-all duration-500`}
+          } fixed z-10 h-[80px] w-full transition-all duration-500 xl:h-[100px]`}
         >
           <img
             className="hidden pl-[80px] pt-[25px] md:inline-block"
@@ -328,7 +328,7 @@ const HomePage = () => {
           />
         </div>
 
-        <div className="fixed right-[60px] top-[35px] z-20">
+        <div className="fixed right-[60px] top-[15px] z-20 xl:top-[35px]">
           <SideMenu
             navOpen={navOpen}
             setNavOpen={setNavOpen}
@@ -461,7 +461,7 @@ const HomePage = () => {
       <div className="rounded-tl-[48px] bg-white">
         <div className="h-full rounded-[48px] bg-[#26C6D0] px-10 pb-[500px] pt-[320px] lg:pt-[250px] xl:h-[2682px] xl:px-0 xl:pb-0 xl:pt-[300px]">
           <div className="text-center">
-            <span className="text-[24px] tracking-[3.636px] text-white md:text-[28px]">
+            <span className="text-[22px] tracking-[3.636px] text-white md:text-[24px] md:text-[28px]">
               OUR INGRADIENTS
             </span>
             <div className="ml-[22px] inline-block h-[10px] w-[10px] flex-shrink-0 rounded-full bg-[#EE6C8A]"></div>
