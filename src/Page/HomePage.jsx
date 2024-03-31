@@ -59,7 +59,7 @@ const HomePage = () => {
           />
           <div className="flex flex-col justify-evenly lg:flex-row">
             {/* RWD:<xl */}
-            <div className="flex flex-col gap-8 px-10 pt-[140px] md:px-20 lg:hidden">
+            <div className="flex flex-col gap-4 px-10 pt-[140px] md:gap-8 md:px-20 lg:hidden">
               <div className="flex h-[80px] w-full items-center justify-start gap-14 rounded-[24px] bg-[#33C8D2] pl-[37px] hover:cursor-pointer hover:bg-[#55e5ed] md:h-[110px]">
                 <figure className="w-10 md:w-24">
                   <img
@@ -459,7 +459,7 @@ const HomePage = () => {
       </div>
       {/* OUR INGRADIENTS */}
       <div className="rounded-tl-[48px] bg-white">
-        <div className="h-full rounded-[48px] bg-[#26C6D0] px-10 pb-[500px] pt-[280px] md:pt-[320px] lg:pt-[250px] xl:h-[2682px] xl:px-0 xl:pb-0 xl:pt-[300px]">
+        <div className="h-full rounded-[48px] bg-[#26C6D0] px-10 pb-[500px] pt-[320px] lg:pt-[250px] xl:h-[2682px] xl:px-0 xl:pb-0 xl:pt-[300px]">
           <div className="text-center">
             <span className="text-[24px] tracking-[3.636px] text-white md:text-[28px]">
               OUR INGRADIENTS
