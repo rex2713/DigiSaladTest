@@ -2,11 +2,18 @@ import React from "react";
 import { Squash as Hamburger } from "hamburger-react";
 
 const SideMenu = ({ navOpen, setNavOpen, navBgOn }) => {
-  const handleHamburgerOn = () => {
-    setNavOpen(true);
-  };
-  const handleHamburgerOff = () => {
-    setNavOpen(false);
+  // const handleHamburgerOn = () => {
+  //   setNavOpen(true);
+  // };
+  // const handleHamburgerOff = () => {
+  //   setNavOpen(false);
+  // };
+  const handleHamburger = () => {
+    if (!navOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "scroll";
+    }
   };
   return (
     <div className="flex flex-row-reverse items-center justify-end gap-x-[100px]  md:gap-x-[44px]">
@@ -33,11 +40,13 @@ const SideMenu = ({ navOpen, setNavOpen, navBgOn }) => {
           ></div>
         </div>
       )} */}
-      <Hamburger
-        color={`${navBgOn && !navOpen ? "#585880" : "white"}`}
-        toggled={navOpen}
-        toggle={setNavOpen}
-      />
+      <div onClick={handleHamburger}>
+        <Hamburger
+          color={`${navBgOn && !navOpen ? "#585880" : "white"}`}
+          toggled={navOpen}
+          toggle={setNavOpen}
+        />
+      </div>
 
       <button
         style={{
