@@ -26,14 +26,9 @@ const HomePage = () => {
       setNavBgOn(false);
     }
   };
-  const handleTouch = () => {
-    const video = document.querySelector("#bgVideo");
-    video.play();
-  };
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
-    window.addEventListener("touchstart", handleTouch);
 
     return () => {
       removeEventListener("scroll", handleScroll);
@@ -343,8 +338,9 @@ const HomePage = () => {
         </div>
         {/* background video */}
         <video
-          id="bgVideo"
-          playsinline={true}
+          height={screen}
+          width={screen}
+          playsinline
           autoPlay
           muted
           loop
