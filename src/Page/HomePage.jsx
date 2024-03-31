@@ -462,7 +462,7 @@ const HomePage = () => {
       <div className="rounded-tl-[48px] bg-white">
         <div className="h-full rounded-[48px] bg-[#26C6D0] px-10 pb-[500px] pt-[320px] lg:pt-[250px] xl:h-[2682px] xl:px-0 xl:pb-0 xl:pt-[300px]">
           <div className="text-center">
-            <span className="text-[22px] tracking-[3.636px] text-white md:text-[24px] md:text-[28px]">
+            <span className="text-[22px] tracking-[3.636px] text-white md:text-[28px]">
               OUR INGRADIENTS
             </span>
             <div className="ml-[22px] inline-block h-[10px] w-[10px] flex-shrink-0 rounded-full bg-[#EE6C8A]"></div>
