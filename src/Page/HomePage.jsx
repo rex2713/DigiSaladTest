@@ -338,8 +338,6 @@ const HomePage = () => {
         </div>
         {/* background video */}
         <video
-          height={screen}
-          width={screen}
           playsinline
           autoPlay
           muted
