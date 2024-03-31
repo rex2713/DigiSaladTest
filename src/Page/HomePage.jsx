@@ -342,7 +342,7 @@ const HomePage = () => {
           loop
           className="absolute h-[940px] rounded-bl-[48px] rounded-br-[48px] object-cover"
         >
-          <source src="/video/background.mp4" />
+          <source src="/video/background1.mp4" />
         </video>
         <div className="absolute h-[940px] w-screen rounded-bl-[48px] rounded-br-[48px] bg-black/30"></div>
         <img
