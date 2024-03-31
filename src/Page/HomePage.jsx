@@ -340,7 +340,7 @@ const HomePage = () => {
         </div>
         {/* background video */}
         <video
-          useRef={bgVideoRef}
+          ref={bgVideoRef}
           playsinline
           autoPlay
           muted
