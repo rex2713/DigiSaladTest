@@ -497,7 +497,7 @@ const HomePage = () => {
         </div>
       </div>
       {/* Self introduction */}
-      <div className="absolute top-[8600px] h-full w-full rounded-bl-[36px] rounded-br-[36px] rounded-tr-[36px] bg-[url('/img/bgPhoto.svg')] bg-cover px-10 sm:top-[7200px] md:top-[6050px] md:flex md:h-[700px] lg:top-[5650px] xl:top-[4703px] xl:h-[598px] xl:w-[1300px]">
+      <div className="absolute top-[8600px] h-[900px] w-full rounded-bl-[36px] rounded-br-[36px] rounded-tr-[36px] bg-[url('/img/bgPhoto.svg')] bg-cover px-10 sm:top-[7200px] md:top-[6050px] md:flex md:h-[700px] lg:top-[5650px] xl:top-[4703px] xl:h-[598px] xl:w-[1300px]">
         <div className="flex flex-col">
           <div className="mx-auto h-[323px] pt-10 md:pt-[137px] xl:mx-0 xl:w-[485px]">
             <figure className="mx-auto w-[204px] overflow-hidden rounded-full">
@@ -528,7 +528,7 @@ const HomePage = () => {
       </div>
       {/* OUR BRAND EXPERIENCE */}
       <div className="h-full bg-white ">
-        <div className="px-10 pt-[540px] text-center md:pt-[580px] lg:pt-[300px] xl:px-0 xl:pt-[386px]">
+        <div className="px-10 pt-[740px] text-center md:pt-[580px] lg:pt-[300px] xl:px-0 xl:pt-[386px]">
           <span className="text-[28px] tracking-[3.636px] text-[#262626]">
             OUR BRAND EXPERIENCE
           </span>
