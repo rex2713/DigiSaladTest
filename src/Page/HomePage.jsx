@@ -8,7 +8,6 @@ const HomePage = () => {
   const [isPlay, setIsPlay] = useState(false);
   const [navBgOn, setNavBgOn] = useState(false);
   const videoRef = useRef(null);
-  const bgVideoRef = useRef(null);
 
   const handlePlay = () => {
     if (!isPlay) {
@@ -30,7 +29,6 @@ const HomePage = () => {
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
-    bgVideoRef.current.play();
 
     return () => {
       removeEventListener("scroll", handleScroll);
@@ -340,7 +338,6 @@ const HomePage = () => {
         </div>
         {/* background video */}
         <video
-          ref={bgVideoRef}
           playsinline={true}
           autoPlay
           muted
