@@ -337,6 +337,7 @@ const HomePage = () => {
         </div>
         {/* background video */}
         <video
+          playsinline
           autoPlay
           muted
           loop
