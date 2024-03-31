@@ -60,10 +60,10 @@ const HomePage = () => {
           <div className="flex flex-col justify-evenly lg:flex-row">
             {/* RWD:<xl */}
             <div className="flex flex-col gap-4 px-10 pt-[140px] md:gap-8 md:px-20 lg:hidden">
-              <div className="flex h-[80px] w-full items-center justify-start gap-14 rounded-[24px] bg-[#33C8D2] pl-[37px] hover:cursor-pointer hover:bg-[#55e5ed] md:h-[110px]">
+              <div className="flex h-[70px] w-full items-center justify-start gap-14 rounded-[24px] bg-[#33C8D2] pl-[37px] hover:cursor-pointer hover:bg-[#55e5ed] md:h-[110px]">
                 <figure className="w-10 md:w-24">
                   <img
-                    className={`${navOpen ? "opacity-100" : "opacity-0"} transition-all delay-[0.3s] duration-[1s]`}
+                    className={`${navOpen ? "opacity-100" : "opacity-0"} w-[80%] transition-all delay-[0.3s] duration-[1s] md:w-auto`}
                     src="/img/navIcon1.svg"
                     alt=""
                   />
@@ -82,10 +82,10 @@ const HomePage = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex h-[80px] w-full items-center justify-start gap-14 rounded-[24px] bg-[#D37C95] pl-[37px] hover:cursor-pointer hover:bg-[#ea98af] md:h-[110px]">
+              <div className="flex h-[70px] w-full items-center justify-start gap-14 rounded-[24px] bg-[#D37C95] pl-[37px] hover:cursor-pointer hover:bg-[#ea98af] md:h-[110px]">
                 <figure className="w-10 md:w-24">
                   <img
-                    className={`${navOpen ? "opacity-100" : "opacity-0"} transition-all delay-[0.5s] duration-[1s]`}
+                    className={`${navOpen ? "opacity-100" : "opacity-0"} w-[80%] transition-all delay-[0.5s] duration-[1s] md:w-auto`}
                     src="/img/navIcon2.svg"
                     alt=""
                   />
@@ -104,10 +104,10 @@ const HomePage = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex h-[80px] w-full items-center justify-start gap-14 rounded-[24px] bg-[#E9AE59] pl-[37px] hover:cursor-pointer hover:bg-[#f7c37b] md:h-[110px]">
+              <div className="flex h-[70px] w-full items-center justify-start gap-14 rounded-[24px] bg-[#E9AE59] pl-[37px] hover:cursor-pointer hover:bg-[#f7c37b] md:h-[110px]">
                 <figure className="w-10 md:w-24">
                   <img
-                    className={`${navOpen ? "opacity-100" : "opacity-0"} transition-all delay-[0.7s] duration-[1s]`}
+                    className={`${navOpen ? "opacity-100" : "opacity-0"} w-[80%] transition-all delay-[0.7s] duration-[1s] md:w-auto`}
                     src="/img/navIcon3.svg"
                     alt=""
                   />
@@ -126,10 +126,10 @@ const HomePage = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex h-[80px] w-full items-center justify-start gap-14 rounded-[24px] bg-[#25D2A7] pl-[37px] hover:cursor-pointer hover:bg-[#43e8be] md:h-[110px]">
+              <div className="flex h-[70px] w-full items-center justify-start gap-14 rounded-[24px] bg-[#25D2A7] pl-[37px] hover:cursor-pointer hover:bg-[#43e8be] md:h-[110px]">
                 <figure className="w-10 md:w-24">
                   <img
-                    className={`${navOpen ? "opacity-100" : "opacity-0"} transition-all delay-[0.9s] duration-[1s]`}
+                    className={`${navOpen ? "opacity-100" : "opacity-0"} w-[40%] transition-all delay-[0.9s] duration-[1s] md:w-auto`}
                     src="/img/navIcon4.svg"
                     alt=""
                   />
@@ -148,10 +148,10 @@ const HomePage = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex h-[80px] w-full items-center justify-start gap-14 rounded-[24px] bg-[#585880] pl-[37px] hover:cursor-pointer hover:bg-[#707096] md:h-[110px]">
+              <div className="flex h-[70px] w-full items-center justify-start gap-14 rounded-[24px] bg-[#585880] pl-[37px] hover:cursor-pointer hover:bg-[#707096] md:h-[110px]">
                 <figure className="w-10 md:w-24">
                   <img
-                    className={`${navOpen ? "opacity-100" : "opacity-0"} transition-all delay-[1.1s] duration-[1s]`}
+                    className={`${navOpen ? "opacity-100" : "opacity-0"} w-[60%] transition-all delay-[1.1s] duration-[1s] md:w-auto`}
                     src="/img/navIcon5.svg"
                     alt=""
                   />
@@ -170,7 +170,7 @@ const HomePage = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex h-[80px] w-full flex-col items-center justify-center rounded-[24px] bg-white pl-[37px] pr-12 hover:cursor-pointer hover:bg-gray-100 md:h-[110px]">
+              <div className="flex h-[70px] w-full flex-col items-center justify-center rounded-[24px] bg-white pl-[37px] pr-12 hover:cursor-pointer hover:bg-gray-100 md:h-[110px]">
                 <p
                   className={`hidden text-nowrap text-base font-normal  tracking-[1.8px] text-[#262626] md:block ${navOpen ? "opacity-100" : "opacity-0"} transition-all delay-[1.5s] duration-[1s]`}
                 >
