@@ -341,7 +341,7 @@ const HomePage = () => {
         {/* background video */}
         <video
           ref={bgVideoRef}
-          playsinline
+          playsinline={true}
           autoPlay
           muted
           loop

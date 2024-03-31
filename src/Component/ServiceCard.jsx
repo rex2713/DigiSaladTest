@@ -14,7 +14,7 @@ const ServiceCard = () => {
   return (
     <>
       <div className="grid grid-cols-1 pt-[85px] md:grid-cols-2 xl:grid-cols-3 xl:px-[140px]">
-        {console.log(cardData)}
+        {/* {console.log(cardData)} */}
         {cardData &&
           cardData.map((card) => {
             return (
