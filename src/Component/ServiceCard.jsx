@@ -71,7 +71,7 @@ const ServiceCard = () => {
           ullamcorper bibendum bibendum. Duis tincidunt urna non pretium porta.
           Nam condimentum vitae ligula vel ornare.
         </p>
-        <button className="h-[58px] w-[165px] rounded-[30px] border-2 border-white text-[14px] tracking-[2.222px] text-white">
+        <button className="h-[58px] w-[165px] rounded-[30px] border-2 border-white text-[14px] tracking-[2.222px] text-white transition-colors duration-300  hover:border-[#fbf166] hover:text-[#fbf166]">
           BRANDING
         </button>
       </div>
